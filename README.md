@@ -31,8 +31,9 @@ The script will extract and display the hidden message from the image.
 The project utilizes the Least Significant Bit (LSB) technique for steganography. In this method, the least significant bits of the image's pixel values are modified to encode the bits of the secret message. Since changes in the LSBs have a minimal impact on the overall appearance of the image, the hidden message remains imperceptible to the human eye.
 
 ## Limitations
-The size of the secret message is limited by the dimensions and color depth of the cover image.
-The current implementation does not support encryption; the hidden message is not encrypted within the image.
-License
+The size of the secret message is limited by the dimensions and color depth of the cover image.  
+The current implementation does not support encryption; the hidden message is not encrypted within the image.  
+
+## License
 This project is licensed under the MIT License.
 
