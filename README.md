@@ -8,6 +8,7 @@ This project demonstrates the technique of **image steganography**, which involv
 ## Requirements
 - Python 3.x  
 - CV2 library  
+
 Install the Cv2 library using pip:  
 ```shell
 pip install -r requirements.txt -y
