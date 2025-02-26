@@ -17,15 +17,15 @@ pip install -r requirements.txt -y
 ## Usage
 ### Encoding a Message:
 
-Run the `encode.py` script.
+Run the `encrypt.py` script.
 Input the path to the cover image (e.g., normal_dog_image.jpg).
 Enter the secret message you wish to hide.
-Specify the output image file name (e.g., stego_dog_image.jpg).
+Specify the output image file name (e.g., stego_dog_image.png).
 The script will embed the secret message into the specified image and save the resulting stego image.
 
 ### Decoding a Message:
 
-Run the `decode.py` script.
+Run the `decrypt.py` script.
 Input the path to the stego image (e.g., stego_dog_image.png).
 The script will extract and display the hidden message from the image.
 
