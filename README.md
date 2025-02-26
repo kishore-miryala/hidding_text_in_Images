@@ -9,6 +9,7 @@ This project demonstrates the technique of **image steganography**, which involv
 - Python 3.x  
 - CV2 library  
 
+
 Install the Cv2 library using pip:  
 ```shell
 pip install -r requirements.txt -y
@@ -17,15 +18,15 @@ pip install -r requirements.txt -y
 ### Encoding a Message:
 
 Run the `encode.py` script.
-Input the path to the cover image (e.g., normal_cat_image.jpg).
+Input the path to the cover image (e.g., normal_dog_image.jpg).
 Enter the secret message you wish to hide.
-Specify the output image file name (e.g., stego_cat_image.jpg).
+Specify the output image file name (e.g., stego_dog_image.jpg).
 The script will embed the secret message into the specified image and save the resulting stego image.
 
 ### Decoding a Message:
 
 Run the `decode.py` script.
-Input the path to the stego image (e.g., stego_cat_image.png).
+Input the path to the stego image (e.g., stego_dog_image.png).
 The script will extract and display the hidden message from the image.
 
 ## How It Works
